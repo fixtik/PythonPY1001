@@ -1,0 +1,84 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 645
+    length: 38
+    placeholder_text: '# TODO распечатать фамилии и их номера'
+    initial_state:
+      length: 38
+      offset: 576
+    initialized_from_dependency: false
+    selected: true
+    status: Failed
+    encrypted_possible_answer: '# TODO'
+  text: |
+    if __name__ == "__main__":
+        surname_list = [  # список фамилий Санкт-Петербурга
+            "Иванов",
+            "Васильев",
+            "Петров",
+            "Смирнов",
+            "Михайлов",
+            "Фёдоров",
+            "Соколов",
+            "Яковлев",
+            "Попов",
+            "Андреев",
+            "Алексеев",
+            "Александров",
+            "Лебедев",
+            "Григорьев",
+            "Степанов",
+            "Семёнов",
+            "Павлов",
+            "Богданов",
+            "Николаев",
+            "Дмитриев",
+            "Егоров",
+            "Волков",
+            "Кузнецов",
+            "Никитин",
+            "Соловьёв"
+        ]
+
+        # TODO распечатать фамилии и их номера
+  learner_created: false
+status: Failed
+feedback:
+  message: Incorrect
+  time: Sat, 16 Oct 2021 12:13:52 UTC
+  actual: |
+    Иванов 1
+    Васильев 2
+    Петров 3
+    Смирнов 4
+    Михайлов 5
+    Фёдоров 6
+    Соколов 7
+    Яковлев 8
+    Попов 9
+    Андреев 10
+    Алексеев 11
+    Александров 12
+    Лебедев 13
+    Григорьев 14
+    Степанов 15
+    Семёнов 16
+    Павлов 17
+    Богданов 18
+    Николаев 19
+    Дмитриев 20
+    Егоров 21
+    Волков 22
+    Кузнецов 23
+    Никитин 24
+    Соловьёв 25
+record: -1
