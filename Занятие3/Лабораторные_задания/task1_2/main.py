@@ -1,3 +1,11 @@
+def factorial(n):
+    i = 1
+    res = 1
+    while i <= n:
+        res *= i
+        i += 1
+    return res
+
 if __name__ == "__main__":
-    # Write your solution here
-    pass
+
+    print(factorial(5))
