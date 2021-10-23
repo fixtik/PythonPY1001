@@ -1,7 +1,6 @@
 def task_(str_):
     split_str = str_.split()
     max_list = []
-    revers_list = []
     max_len = 1
     for s in split_str:
         if len(s) > max_len:
@@ -13,12 +12,9 @@ def task_(str_):
         else:
             continue
     if len(max_list) > 1:
-        for s in max_list:
-            revers_list.append(s[::-1])
-        return max_list, revers_list
+        return max_list
     else:
-        s = max_list[0]
-        return s[::-1]
+        return max_list[0]
 
 if __name__ == "__main__":
     # Write your solution here
