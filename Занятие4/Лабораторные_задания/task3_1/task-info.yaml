@@ -11,7 +11,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       def get_count_char(str_):
           # для начала переведем текст в нижний регистр
@@ -41,6 +41,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Sat, 30 Oct 2021 12:36:43 UTC
 record: -1
 post_submission_on_open: true

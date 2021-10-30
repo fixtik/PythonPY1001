@@ -1,3 +1,7 @@
 if __name__ == "__main__":
     # Write your solution here
-    pass
+    def task(n):
+        return True if len(set(str(n))) == 1 else False
+
+
+
