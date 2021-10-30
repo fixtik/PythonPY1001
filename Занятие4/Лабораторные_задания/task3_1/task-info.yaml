@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 6
+    length: 50
     placeholder_text: '# TODO'
     initial_state:
       length: 6
       offset: 0
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       def get_count_char(str_):
