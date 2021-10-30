@@ -29,8 +29,9 @@ def create_alpha_dict(str_):
 
 def percent_alpha(dict_):
     new_dict = {}
-    for key, volume in dict_:
-        new_dict[key] = round (dict_[key] / len(dict_)
+    for key in dict_:
+        new_dict[key] = round((dict_[key] / len(dict_)) * 100, 2)
+    return new_dict
 
 
 print(create_dict(main_str))
