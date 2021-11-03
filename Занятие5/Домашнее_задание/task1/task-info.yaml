@@ -10,6 +10,11 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+- name: task_file
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  time: Tue, 02 Nov 2021 16:31:22 UTC
 record: -1
 post_submission_on_open: true
