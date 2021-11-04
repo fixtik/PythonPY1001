@@ -4,4 +4,4 @@ if __name__ == "__main__":
         return True if len(set(str(n))) == 1 else False
 
 
-
+print(task(111111))

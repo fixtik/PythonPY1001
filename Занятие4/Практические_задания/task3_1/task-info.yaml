@@ -13,8 +13,8 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: sum_ = 0
-  - offset: 374
-    length: 35
+  - offset: 370
+    length: 0
     placeholder_text: '# TODO посчитать через метод values'
     initial_state:
       length: 35

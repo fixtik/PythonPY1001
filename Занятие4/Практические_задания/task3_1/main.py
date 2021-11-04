@@ -15,7 +15,7 @@ if __name__ == "__main__":
     total_price = 0
     for price in cart.values():
         total_price += price
-    # TODO посчитать через метод values
+
 
     print(total_price)
 

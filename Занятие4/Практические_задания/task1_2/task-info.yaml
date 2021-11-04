@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 48
-    length: 68
+    length: 43
     placeholder_text: '[i ** 2 for i in range(10)])  # TODO добавить условие'
     initial_state:
       length: 53
